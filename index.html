@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <title>Bruno Chagas - DoWhile 2021</title>
+
+    <!-- tags que não possuem conteudo não tem fechamento -->
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="avatar">
+                <span><img src="images/build.svg" alt="Selo Rocketseat" /> </span>
+                <img id="userImage" src="https://lorempixel.com/185/185/people/" alt="Foto pessoal" />
+            </div>
+            <!-- Boa pratica para acessar objetos através da DOM é utilizar o ID -->
+            <h1 id="userName">Brucus</h1>
+            <a id="userLink" href="https://github.com/" target="_blank">
+                <img src="images/GitHub.svg" alt="Icone GitHub" /> <span id="userLogin"></span>
+            </a>
+
+            <p id="userBio">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit eligendi illo, vero rerum cum architecto possimus at consequatur, perferendis alias temporibus velit id odit reprehenderit eius sapiente minus repudiandae corporis.
+            </p>
+
+            <ul id="socialLinks">
+                <li class="youtube">
+                    <a href="https://youtube.com" target="_blank">
+                        <img src="images/Youtube.svg" alt="Youtube" />
+                    </a>
+                </li>
+
+                <li class="instagram">
+                    <a href="https://Instagram.com" target="_blank">
+                        <img src="images/Instagram.svg" alt="Instagram" />
+                    </a>
+                </li>
+
+                <li class="facebook">
+                    <a href="https://facebook.com" target="_blank">
+                        <img src="images/Facebook.svg" alt="Facebook" />
+                    </a>
+                </li>
+
+                <li class="twitter">
+                    <a href="https://Twitter.com" target="_blank">
+                        <img src="images/Twitter.svg" alt="Twitter" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </main>
+
+    <!-- Somente depois que o site carregar todas as informações que será acessado o script, influencia na ordem do carregamento caso colocado junto com o link do CSS -->
+    <script src="main.js"></script>
+
+    </script>
+</body>
+
+</html>
